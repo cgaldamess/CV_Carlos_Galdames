@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carlos Galdames - CV</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.7;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+    .header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1a5276;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .header-info h1 {
+      margin: 0;
+      color: #1a5276;
+      font-size: 2.2em;
+      font-weight: 600;
+    }
+    .contact {
+      font-size: 0.95em;
+      color: #555;
+      margin-top: 8px;
+    }
+    .contact a {
+      color: #2874a6;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 25px;
+    }
+    .section h2 {
+      color: #1a5276;
+      border-bottom: 2px solid #d6eaf8;
+      padding-bottom: 5px;
+    }
+    .job, .education-item {
+      margin-bottom: 16px;
+    }
+    .job-title, .edu-title {
+      font-weight: bold;
+      color: #2874a6;
+      font-size: 1.1em;
+    }
+    .company {
+      color: #1b4f72;
+      font-style: italic;
+      font-weight: 500;
+    }
+    .dates {
+      color: #3498db;
+      font-size: 0.95em;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .skill {
+      background: #ebf5fb;
+      color: #1a5276;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      font-weight: 500;
+    }
+    .award {
+      font-weight: bold;
+      color: #7d6608;
+    }
+    .references {
+      background: #f8f9fa;
+      border-left: 4px solid #2874a6;
+      padding: 15px;
+      border-radius: 6px;
+      font-style: italic;
+      color: #2c3e50;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Encabezado con foto -->
+    <div class="header">
+      <img src="fotocv.jpg" alt="Foto de Carlos Galdames">
+      <div class="header-info">
+        <h1>Carlos Galdames Sepúlveda</h1>
+        <p class="contact">
+          Iquique, Chile | +56 9 5427 8850<br>
+          <a href="mailto:cgaldamess@gmail.com">cgaldamess@gmail.com</a> | 
+          <a href="https://linkedin.com/in/carlosgaldamessepulveda" target="_blank">linkedin.com/in/carlosgaldamessepulveda</a><br>
+          
+        </p>
+      </div>
+    </div>
+
+    <!-- Perfil Profesional -->
+    <div class="section">
+      <h2>Perfil Profesional</h2>
+      <p>
+        Ingeniero Civil Industrial con experiencia en planificación, diseño y ejecución de proyectos multidisciplinarios. 
+        Especializado en optimización de procesos, gestión operativa y mantenimiento en sectores energéticos y marítimos. 
+        Líder con habilidades comprobadas en mejora continua, innovación y dirección de equipos técnicos.
+      </p>
+    </div>
+
+    <!-- Experiencia -->
+    <div class="section">
+      <h2>Experiencia Profesional</h2>
+
+      <div class="job">
+        <div class="job-title">Superintendente Técnico</div>
+        <div class="company">Grupo CPT</div>
+        <div class="dates">Enero 2021 – Febrero 2024 | Iquique, Chile</div>
+        <ul>
+          <li>Gestión técnica y operativa de flota de remolcadores de alta mar.</li>
+          <li>Aseguramiento del cumplimiento marítimo, eficiencia operativa y cuidado del medio ambiente.</li>
+          <li>Coordinación de mantenimiento y liderazgo de equipos multidisciplinarios.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Jefe de Operaciones de Turno</div>
+        <div class="company">ENGIE Chile</div>
+        <div class="dates">Enero 2008 – Enero 2021 | Tocopilla, Chile</div>
+        <ul>
+          <li>Supervisión de operaciones en central termoeléctrica durante turnos.</li>
+          <li>Garantía de suministro eléctrico seguro, eficiente y sostenible.</li>
+          <li>Participación en puesta en marcha y gestión integral de planta.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Ingeniero de Marina Mercante</div>
+        <div class="company">Navimag Ferries</div>
+        <div class="dates">Enero 1992 – Enero 2008 | Puerto Montt, Chile</div>
+        <ul>
+          <li>Operación, mantenimiento y reparación de sistemas de propulsión y seguridad naval.</li>
+          <li>Liderazgo de equipos técnicos a bordo y planificación de tareas críticas.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Proyectos Destacados -->
+    <div class="section">
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li><strong>Construcción Central Diésel Tamaya:</strong> Liderazgo de equipos durante montaje y puesta en marcha (oct. 2008 – ene. 2009).</li>
+        <li><strong>Planta de tratamiento de gases de escape:</strong> Diseño, cálculo y verificación operacional.</li>
+        <li><strong>Planta de aguas aceitosas:</strong> Diseño, construcción y puesta en marcha.</li>
+      </ul>
+    </div>
+
+    <!-- Educación -->
+    <div class="section">
+      <h2>Educación</h2>
+      <div class="education-item">
+        <div class="edu-title">Ingeniería Civil Industrial, Mención Gestión</div>
+        <div class="company">Universidad Arturo Prat</div>
+        <div class="dates">2017 – 2019 | Titulado (Nota: 5.7)</div>
+      </div>
+      <div class="education-item">
+        <div class="edu-title">Ingeniero de Marina Mercante</div>
+        <div class="company">Escuela Naval "Arturo Prat"</div>
+        <div class="dates">1988 – 1991</div>
+      </div>
+    </div>
+
+    <!-- Habilidades -->
+    <div class="section">
+      <h2>Habilidades Clave</h2>
+      <div class="skills">
+        <span class="skill">Gestión Operativa</span>
+        <span class="skill">Mantenimiento Predictivo</span>
+        <span class="skill">Liderazgo de Equipos</span>
+        <span class="skill">Mejora Continua</span>
+        <span class="skill">Análisis de Fallas</span>
+        <span class="skill">Control Operacional</span>
+        <span class="skill">ERP</span>
+        <span class="skill">KPI</span>
+        <span class="skill">Resolución de Problemas</span>
+        <span class="skill">Sostenibilidad</span>
+        <span class="skill">Gestión de Costes</span>
+        <span class="skill">Administración de Personal</span>
+      </div>
+    </div>
+
+    <!-- Certificaciones -->
+    <div class="section">
+      <h2>Certificaciones</h2>
+      <ul>
+        <li>Operador de Calderas de Gran Presión</li>
+        <li>The Zero-Carbon Transition Strategy</li>
+      </ul>
+    </div>
+
+    <!-- Reconocimientos -->
+    <div class="section">
+      <h2>Reconocimientos</h2>
+      <p class="award">🔹 Premio Innovación – E-CL, Julio 2015</p>
+    </div>
+
+    <!-- Idiomas -->
+    <div class="section">
+      <h2>Idiomas</h2>
+      <p><strong>Español:</strong> Nativo | <strong>Inglés:</strong> Técnico</p>
+    </div>
+
+    <!-- Referencias -->
+    <div class="section">
+      <h2>Referencias</h2>
+      <div class="references">
+        <p>
+          <strong>Sergio Molina</strong> – Jefe de Transición Energética, ENGIE Energía Chile<br>
+          📞 <a href="tel:+56966569031">+56 9 6656 9031</a>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 Carlos Galdames. Información actualizada basada en experiencia profesional.
+    </footer>
+  </div>
+
+</body>
+</html>
